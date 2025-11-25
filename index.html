@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maestría Personal</title>
+    
+    <!-- Estas variables son necesarias para que funcione con Firebase / Canvas -->
+    <script>
+      window.__app_id = "maestria-personal";
+      window.__firebase_config = JSON.stringify({
+        // Aquí pondrás tu config real de Firebase más adelante
+        // Por ahora dejamos un objeto vacío para que no dé error
+        apiKey: "demo",
+        authDomain: "demo.firebaseapp.com",
+        projectId: "demo",
+        storageBucket: "demo.appspot.com",
+        messagingSenderId: "000000000000",
+        appId: "1:000000000000:web:aaaaaaaaaaaaaaaaaa"
+      });
+      window.__initial_auth_token = null;
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
